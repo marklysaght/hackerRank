@@ -24,22 +24,18 @@ public class socks {
 							pairs++;
 							sockCount = 0;
 						}
-
 					}
-
 				}
 				sockCount = 0;
 				int[] tempAr = new int[ar.length];
 				for (int k = 0; k < tempAr.length; k++) {
 					if (ar[i] != ar[k]) {
 						tempAr[k] = ar[k];
-
 					}
 				}
 				ar = tempAr;
 			}
 		}
 		System.out.println(pairs + " pairs");
-
 	}
 }
