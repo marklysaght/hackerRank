@@ -10,8 +10,9 @@ int main()
     scanf("%d", &n);
     // Complete the code to print the pattern.
 
-    for (int i = 0; i < n; i++)
+    for (int i = n; i > 0; i--)
     {
+        printf("%d", );
     }
 
     return 0;
