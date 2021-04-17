@@ -1,3 +1,5 @@
+package interviewPrep.Arrays.newYearChaos;
+
 import java.io.*;
 import java.math.*;
 import java.security.*;
